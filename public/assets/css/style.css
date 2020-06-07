@@ -1,0 +1,72 @@
+p{
+  padding: 5px;
+  margin: 5px; 
+  background: white;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+h3 {
+  text-align: center;
+}
+body{
+  background: lightblue;
+
+}
+.mainImage{
+  position: relative;
+  top: 20px;
+}
+.mainImage img{
+  height:100px;
+  width:auto;
+}
+.mainpage{
+  /* position: absolute;
+  top: 50px; */
+  width: 100%;
+}
+.onMenu{
+  position: relative;;
+  width: 49%;
+  float: left;
+}
+.inTummy{
+  position: relative;
+  width:49%;
+  float: left;
+}
+.newEntry{
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  height: 150px;
+  margin:auto;
+  text-align: center;
+}
+.cardPlain {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.container {
+  position: relative;
+  padding: 2px 16px;
+  width: 100%;
+  margin: auto;
+}
+li{
+  margin: 10px 0px;
+}
