@@ -20,7 +20,10 @@ app.set("view engine", "handlebars");
 // Import routes and give the server access to them.
 var routes = require("./controllers/burgerController.js");
 
+app.get('/favicon.ico', (req, res) => res.end())
+
 app.use(routes);
+
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function () {
